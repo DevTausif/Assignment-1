@@ -479,3 +479,51 @@ body {
   font-weight: 600;
 }
 /* Support Section Style End */
+
+/* Footer Section Style Start */
+#footer-container {
+  max-width: 1440px;
+  height: 100px;
+  margin: 0 auto;
+  padding: 32px 150px 32px 150px;
+  margin-top: 5%;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.03);
+}
+
+.commitment {
+  max-width: 1140px;
+  height: 36px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.commitment > p {
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+}
+.social-img-fb {
+  width: 36px;
+  height: 36px;
+  margin-right: 24px;
+}
+
+.social-img-git {
+  width: 36.86px;
+  height: 35.95px;
+  margin-right: 24px;
+}
+
+.social-img-link {
+  width: 36px;
+  height: 36px;
+  margin-right: 24px;
+}
+
+.icons >  a{
+    text-decoration: none;
+}
+/* Footer Section Style End */
