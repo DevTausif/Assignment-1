@@ -79,7 +79,22 @@ body {
 /* Banner Section Style End */
 
 /* Web Development Detail Section Style Start */
+.main-dev {
+  background: rgba(13, 19, 33, 0.02);
+  width: 1140px;
+  height: 1393px;
+  margin: 0 auto;
+  margin-bottom: 90px;
+}
+
+.inside-dev-page {
+  width: 946px;
+  height: 1233px;
+  margin: 0 auto;
+  margin: 48px;
+}
 .web-content-container {
+  margin-bottom: 48px;
   text-align: center;
 }
 
@@ -98,15 +113,21 @@ body {
 
 .coding-container {
   width: 946px;
-  height: 336px;
+  height: 250px;
   margin: 0 auto;
-  margin-top: 10%;
+  margin-bottom: 32px;
   display: flex;
   justify-content: space-between;
+  border-radius: 16px;
+  background: linear-gradient(
+    90deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
 }
 
 .coding-content {
-  width: 477px;
+  max-width: 477px;
   height: 219px;
   margin-top: 10px;
 }
@@ -139,7 +160,7 @@ body {
 .coding-img {
   width: 274.17px;
   height: 240px;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 .coding-content-two {
@@ -164,6 +185,5 @@ body {
   width: 223.2px;
   height: 208.85px;
 }
-
 
 /* Web Development Detail Section Style End */
