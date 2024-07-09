@@ -11,8 +11,8 @@ body {
 
 /* Nav Section Style Start */
 .nav-container {
-    max-width: 1980px;
-    height: 1020px;
+  max-width: 1980px;
+  height: 1020px;
 }
 .nav-section {
   display: flex;
@@ -192,8 +192,8 @@ body {
 .my-inspiration {
   width: 1140px;
   height: 775px;
-
   margin: 0 auto;
+  margin-bottom: 151px;
 }
 
 .story-heading {
@@ -231,3 +231,104 @@ body {
   margin-left: 50px;
 }
 /* My Inspiration Section Style End */
+
+/* My Target Style Start */
+.target {
+  width: 1140px;
+  height: 460px;
+  margin: 0 auto;
+  margin-bottom: 111px;
+}
+
+.current {
+  width: 946px;
+  height: 113px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.current > p {
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+
+.current > span {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.hcs {
+  width: 1140px;
+  height: 299px;
+  margin: 0 auto;
+  margin-top: 48px;
+  display: flex;
+}
+.html {
+  width: 364px;
+  height: 299px;
+  /* margin: 0 auto; */
+  margin: 40px;
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px;
+}
+.source-img {
+  width: 56px;
+  height: 56px;
+  margin-bottom: 24px;
+}
+.introduction {
+  color: rgb(13, 19, 33);
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 8px;
+}
+
+.inner-content {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+
+.conclusion {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+.css {
+  width: 364px;
+  height: 299px;
+  margin: 0 auto;
+  border-radius: 16px;
+  background: rgba(0, 76, 232, 0.05);
+  padding: 40px;
+  margin: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.js {
+  width: 364px;
+  height: 299px;
+  margin: 0 auto;
+  border-radius: 16px;
+  background: rgba(255, 223, 0, 0.05);
+  padding: 40px;
+  margin: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+/* My Target Style End */
