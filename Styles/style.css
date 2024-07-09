@@ -77,3 +77,93 @@ body {
   margin-bottom: 40px;
 }
 /* Banner Section Style End */
+
+/* Web Development Detail Section Style Start */
+.web-content-container {
+  text-align: center;
+}
+
+.web-content > p {
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+.web-content > span {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.coding-container {
+  width: 946px;
+  height: 336px;
+  margin: 0 auto;
+  margin-top: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.coding-content {
+  width: 477px;
+  height: 219px;
+  margin-top: 10px;
+}
+
+.coding-content > p {
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.coding-content > span {
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.btn-primary {
+  width: 171px;
+  height: 47px;
+  padding: 12px 20px 12px 20px;
+  box-sizing: border-box;
+  border: 1px solid rgb(13, 19, 33);
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 32px;
+}
+
+.coding-img {
+  width: 274.17px;
+  height: 240px;
+  margin-top: 50px;
+}
+
+.coding-content-two {
+  padding: 20px;
+}
+
+.coding-content-two > p {
+  margin-bottom: 16px;
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.coding-content-two > span {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 32px;
+}
+
+.coding-img-two {
+  width: 223.2px;
+  height: 208.85px;
+}
+
+
+/* Web Development Detail Section Style End */
