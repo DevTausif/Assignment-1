@@ -11,8 +11,9 @@ body {
 
 /* Nav Section Style Start */
 .nav-container {
-  max-width: 1980px;
-  height: 1020px;
+    max-width: 1440px;
+    height: 652px;
+    margin: 0 auto;
 }
 .nav-section {
   display: flex;
