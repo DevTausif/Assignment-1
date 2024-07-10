@@ -312,6 +312,14 @@ body {
   font-weight: 700;
   text-decoration: underline;
 }
+
+.conclusion > a {
+  text-decoration: none;
+}
+
+.conclusion a:visited{
+  color: black;
+}
 .css {
   width: 364px;
   height: 299px;
@@ -402,6 +410,12 @@ body {
   font-size: 16px;
   font-weight: 700;
 }
+
+.more > a:visited{
+  color: black;
+  text-decoration: none;
+}
+
 
 .node-js-img {
   width: 190.3px;
